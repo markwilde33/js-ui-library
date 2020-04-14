@@ -21,7 +21,7 @@ tabs.init();
 
 // create snackbar
 
-const snackbar = new snackbar();
+const snackbar = new Snackbar();
 snackbar.init();
 
 const button = document.querySelector('button');

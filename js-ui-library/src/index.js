@@ -23,3 +23,8 @@ tabs.init();
 
 const snackbar = new snackbar();
 snackbar.init();
+
+const button = document.querySelector('button');
+button.addEventListener('click', () => {
+  snackbar.show('you clicked me :)');
+});
